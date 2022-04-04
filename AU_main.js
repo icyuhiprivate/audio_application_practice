@@ -29,4 +29,4 @@ window.addEventListener ('load',function(){
 // ランダム再生
 const playlist = [ "ouch.wav", "okay.wav", "what.wav","no.wav" ];
 const myaudio = new Audio( playlist );
-function randomplay( list ){ myaudio.src = list[ Math.floor( Math.random()*list.length ) ]; myaudio.play(); document.getElementById( "playing" ).textContent = "【 再生中 】"; }
+function randomplay( list ){ myaudio.src = list[ Math.floor( Math.random()*list.length ) ]; myaudio.play();}

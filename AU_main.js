@@ -27,6 +27,6 @@ window.addEventListener ('load',function(){
         });
     });
 // ランダム再生
-const playlist = [ "ouch.wav", "okay.wav", "what.wav","no.wav" ];
+const playlist = [ "ouch2.wav", "okay2.wav", "what2.wav","no2.wav" ];
 const myaudio = new Audio( playlist );
 function randomplay( list ){ myaudio.src = list[ Math.floor( Math.random()*list.length ) ]; myaudio.play();}

@@ -6,7 +6,7 @@
 .header {
   padding-top: 2vw;
   text-align: center;
-  font-size:2vw;
+  font-size:3vw;
   height:8vw;
   width:100vw;
 }
@@ -32,9 +32,9 @@
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
-  font-size: 2vw;
+  font-size: 3vw;
   padding: 0 2vw;
-  line-height: 5vw;
+  line-height: 6vw;
   text-align: center;
   text-decoration: none;
   user-select: none;
